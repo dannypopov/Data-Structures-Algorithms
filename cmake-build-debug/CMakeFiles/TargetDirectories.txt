@@ -1,3 +1,0 @@
-/home/yordan.popov/CLionProjects/DataStructures/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/yordan.popov/CLionProjects/DataStructures/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/yordan.popov/CLionProjects/DataStructures/cmake-build-debug/CMakeFiles/Data_Structures_Algorithms.dir

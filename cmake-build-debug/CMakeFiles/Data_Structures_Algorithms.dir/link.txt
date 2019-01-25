@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/Data_Structures_Algorithms.dir/main.cpp.o CMakeFiles/Data_Structures_Algorithms.dir/LinkedList/LinkedList.cpp.o CMakeFiles/Data_Structures_Algorithms.dir/Queue/Queue.cpp.o  -o Data_Structures_Algorithms 
