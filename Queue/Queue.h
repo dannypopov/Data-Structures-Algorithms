@@ -1,5 +1,5 @@
 //
-// Created by yordan.popov on 25.01.19.
+// Created by dnn on 25.01.19.
 //
 
 #ifndef DATA_STRUCTURES_ALGORITHMS_QUEUE_H

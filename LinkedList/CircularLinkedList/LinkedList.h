@@ -1,5 +1,5 @@
 //
-// Created by yordan.popov on 29.01.19.
+// Created by dnn on 29.01.19.
 //
 
 #ifndef DATA_STRUCTURES_ALGORITHMS_LINKEDLIST_H
