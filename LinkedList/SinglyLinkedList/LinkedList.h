@@ -25,8 +25,8 @@ public:
     void addToHead(int);
     void addToTail(int);
 
-    int deleteHead();
-    int deleteTail();
+    bool deleteHead();
+    bool deleteTail();
     void deleteNode(int);
 
     bool contains(int);

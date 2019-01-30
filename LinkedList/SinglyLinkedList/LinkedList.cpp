@@ -51,45 +51,41 @@ void LinkedList::addToTail(int newEl)
     ++size;
 }
 
-int LinkedList::deleteHead()
+bool LinkedList::deleteHead()
 {
     if (size == 0)
     {
         std::cerr << "Nothing to delete \n";
-        return INT32_MIN;
+        return false;
     }
     if (head == tail)
     {
         delete head;
-        head = nullptr;
-        tail = nullptr;
+        head = tail = nullptr;
         size = 0;
-        return INT32_MIN;
+        return true;
     }
-    int headValue = head->getData();
     Node *newHead = head->getNext();
     delete head;
     head = newHead;
     --size;
-    return headValue;
+    return true;
 }
 
-int LinkedList::deleteTail()
+bool LinkedList::deleteTail()
 {
     //case 0 elements
     if (size == 0)
     {
         std::cerr << "Nothing to delete \n";
-        return INT32_MIN;
+        return false;
     }
 
-    int tailValue = tail->getData();
     //if 1 element
     if (head == tail)
     {
         delete head;
-        head = nullptr;
-        tail = nullptr;
+        head = tail = nullptr;
         size = 0;
     } else
     {
@@ -108,7 +104,7 @@ int LinkedList::deleteTail()
         delete forDeletion;
         size--;
     }
-    return tailValue;
+    return true;
 }
 
 void LinkedList::deleteNode(int el)
@@ -123,8 +119,7 @@ void LinkedList::deleteNode(int el)
     if (head == tail && head->getData() == el)
     {
         delete head;
-        head = nullptr;
-        tail = nullptr;
+        head = tail = nullptr;
         size = 0;
         return;
     }
