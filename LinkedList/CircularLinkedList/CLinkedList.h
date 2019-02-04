@@ -1,0 +1,15 @@
+//
+// Created by yordan.popov on 04.02.19.
+//
+
+#ifndef DATA_STRUCTURES_ALGORITHMS_CLINKEDLIST_H
+#define DATA_STRUCTURES_ALGORITHMS_CLINKEDLIST_H
+
+
+class CLinkedList
+{
+
+};
+
+
+#endif //DATA_STRUCTURES_ALGORITHMS_CLINKEDLIST_H

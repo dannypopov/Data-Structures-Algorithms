@@ -3,6 +3,8 @@
 //
 
 #include "LinkedList.h"
+#include "../DoublyLinkedList/DLinkedList.h"
+
 
 LinkedList::LinkedList()
         : head(nullptr), tail(nullptr), size(0)
@@ -182,3 +184,4 @@ void LinkedList::print() const
     }
     std::cout << std::endl;
 }
+
